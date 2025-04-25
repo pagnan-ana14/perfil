@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.profile-image-container {
+    width: 150px; /* Largura do contêiner da imagem */
+    height: 150px; /* Altura do contêiner da imagem */
+    overflow: hidden; /* Esconde partes da imagem que saem do contêiner */
+    border-radius: 50%; /* Faz o contêiner ser circular */
+    margin: 0 auto; /* Centraliza o contêiner */
+}
+
+.profile-image {
+    width: 100%; /* A imagem ocupará 100% da largura do contêiner */
+    height: auto; /* A altura será ajustada automaticamente para manter a proporção */
+    display: block; /* Remove espaços em branco abaixo da imagem */
+}
+
+p {
+    line-height: 1.6;
+    color: #555;
+}
+
+button {
+    display: block; /* Faz o botão ocupar toda a largura disponível */
+    width: 100%; /* Largura total do botão */
+    padding: 10px; /* Espaçamento interno do botão */
+    margin-top: 20px; /* Espaçamento acima do botão */
+    background-color: #007BFF; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove bordas padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    font-size: 16px; /* Tamanho da fonte do botão */
+}
+
+button:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
